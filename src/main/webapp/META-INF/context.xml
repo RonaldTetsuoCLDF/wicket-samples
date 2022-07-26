@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/" containerSciFilter="" cachingAllowed="false">
+  <ResourceLink type="javax.sql.DataSource" global="jdbc/applicacao-ds" name="jdbc/aplicacao-ds" />
+  <JarScanner>
+    <JarScanFilter pluggabilitySkip="*" tldSkip="*" defaultTldScan="false" />
+  </JarScanner>
+</Context>

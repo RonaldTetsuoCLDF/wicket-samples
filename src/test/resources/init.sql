@@ -1,0 +1,55 @@
+CREATE TABLE pessoa (
+	id BIGINT IDENTITY PRIMARY KEY,
+	nome VARCHAR(255) NOT NULL
+);
+
+INSERT INTO pessoa (nome) VALUES ('Man Carey');
+INSERT INTO pessoa (nome) VALUES ('Meda Bookman');
+INSERT INTO pessoa (nome) VALUES ('Sun Roberti');
+INSERT INTO pessoa (nome) VALUES ('Benny Routh');
+INSERT INTO pessoa (nome) VALUES ('Denae Fortner');
+INSERT INTO pessoa (nome) VALUES ('Natalie Lindblad');
+INSERT INTO pessoa (nome) VALUES ('Mariah Mauer');
+INSERT INTO pessoa (nome) VALUES ('Helen Shriver');
+INSERT INTO pessoa (nome) VALUES ('Jimmy Mannon');
+INSERT INTO pessoa (nome) VALUES ('Lynelle Vanwagner');  
+INSERT INTO pessoa (nome) VALUES ('Royce Lybrand');
+INSERT INTO pessoa (nome) VALUES ('Aline Blaha');
+INSERT INTO pessoa (nome) VALUES ('Lakita Delvalle'); 
+INSERT INTO pessoa (nome) VALUES ('Carol Ouimet');
+INSERT INTO pessoa (nome) VALUES ('Flo Swift');
+INSERT INTO pessoa (nome) VALUES ('Michelina Aylor');
+INSERT INTO pessoa (nome) VALUES ('Chung Silveria');
+INSERT INTO pessoa (nome) VALUES ('Erlinda Rew');
+INSERT INTO pessoa (nome) VALUES ('Chin Rousseau');
+INSERT INTO pessoa (nome) VALUES ('Denise Fountaine');
+INSERT INTO pessoa (nome) VALUES ('Fredia Classen');
+INSERT INTO pessoa (nome) VALUES ('Emerson Killeen');
+INSERT INTO pessoa (nome) VALUES ('Terina Gose');
+INSERT INTO pessoa (nome) VALUES ('Duane Martinez');
+INSERT INTO pessoa (nome) VALUES ('Meg Morado');
+INSERT INTO pessoa (nome) VALUES ('Faviola Rice');
+INSERT INTO pessoa (nome) VALUES ('Scarlet Hughs');
+INSERT INTO pessoa (nome) VALUES ('April Kinlaw');
+INSERT INTO pessoa (nome) VALUES ('Kelley Monterrosa');  
+INSERT INTO pessoa (nome) VALUES ('Taunya Mortimer');
+INSERT INTO pessoa (nome) VALUES ('Fairy Tew');
+INSERT INTO pessoa (nome) VALUES ('Jeromy Steinhauser');
+INSERT INTO pessoa (nome) VALUES ('Onie Matthews');
+INSERT INTO pessoa (nome) VALUES ('Suzann Prindle');
+INSERT INTO pessoa (nome) VALUES ('Charlene Coco');
+INSERT INTO pessoa (nome) VALUES ('Fred Hippert');
+INSERT INTO pessoa (nome) VALUES ('Leatrice Silvestre');
+INSERT INTO pessoa (nome) VALUES ('Shalonda Licon');
+INSERT INTO pessoa (nome) VALUES ('Ardis Rowles');
+INSERT INTO pessoa (nome) VALUES ('Lorenza Ritch');
+INSERT INTO pessoa (nome) VALUES ('Rodolfo Byers');
+INSERT INTO pessoa (nome) VALUES ('Cathey Vesey');
+INSERT INTO pessoa (nome) VALUES ('Cheryl Birge');
+INSERT INTO pessoa (nome) VALUES ('Maude Ordonez');
+INSERT INTO pessoa (nome) VALUES ('Mari Seder');
+INSERT INTO pessoa (nome) VALUES ('Kamala Grogg');
+INSERT INTO pessoa (nome) VALUES ('Sage Ladouceur');
+INSERT INTO pessoa (nome) VALUES ('Claude Alicea');
+INSERT INTO pessoa (nome) VALUES ('Treasa Tyson');
+INSERT INTO pessoa (nome) VALUES ('Jake Falconer');

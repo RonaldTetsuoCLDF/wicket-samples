@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:extend>
+
+  <div wicket:id="feedback"></div>
+  <form wicket:id="form">
+    <fieldset>
+      <legend wicket:id="title">Nova pessoa</legend>
+      
+      <div class="form-group">
+        <label wicket:for="nome">Nome</label>
+        <input wicket:id="nome"type="text" class="form-control" autocomplete="off">
+      </div>
+      
+      <button wicket:id="salvar" type="submit" class="btn btn-primary">Salvar</button>
+      <button wicket:id="cancelar" type="button" class="btn btn-link">Cancelar</button>
+    </fieldset>
+  </form>
+
+</wicket:extend>
+</html>

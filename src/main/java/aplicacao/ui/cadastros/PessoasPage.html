@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<body>
+<wicket:extend>
+
+  <div wicket:id="feedback"></div>
+
+  <h3>
+    Pessoas
+    <a wicket:id="novo" title="Novo">
+      <small>(<i class="fas fa-plus"></i> novo)</small>
+    </a>
+  </h3> 
+  <table wicket:id="lista" class="table table-striped"></table>
+
+  <wicket:fragment wicket:id="AcoesFragment">
+    <button wicket:id="editar"  class="btn btn-secondary btn-sm"><i class="fas fa-edit" ></i> Editar </button>
+    <button wicket:id="excluir" class="btn btn-danger    btn-sm"><i class="fas fa-trash"></i> Excluir</button>
+  </wicket:fragment>
+
+</wicket:extend>
+</body>
+</html>

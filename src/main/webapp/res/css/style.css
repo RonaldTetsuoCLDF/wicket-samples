@@ -1,0 +1,18 @@
+body {
+	padding-top: 5rem;
+}
+
+ul.feedbackPanel {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.wicket_orderUp span:after {
+	content: ' \f0d8';
+	font-family: 'Font Awesome 5 Free';
+}
+
+.wicket_orderDown span:after {
+	content: ' \f0d7';
+	font-family: 'Font Awesome 5 Free';
+}
