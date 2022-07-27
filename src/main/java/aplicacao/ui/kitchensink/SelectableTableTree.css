@@ -1,0 +1,30 @@
+.SelectableTableTree table {
+	width: 100%;
+}
+.SelectableTableTree tr {
+	border-bottom:1px solid black;
+	border-top:1px solid black;
+}
+.SelectableTableTree tr.even {
+	background-color: #eeeeee;
+}
+
+.SelectableTableTree.tree-theme-windows tr.selected {
+	background-color: #ccf;
+	color: #000;
+	font-weight: bold;
+}
+.SelectableTableTree.tree-theme-windows span.tree-content .selected span.tree-label {
+	background-color: #ccf;
+	color: #000;
+}
+
+.SelectableTableTree.tree-theme-human tr.selected {
+  background-color: #fad184;
+  color: #000;
+  font-weight: bold;
+}
+.SelectableTableTree.tree-theme-human span.tree-content .selected span.tree-label {
+  background-color: #fad184;
+  color: #000;
+}

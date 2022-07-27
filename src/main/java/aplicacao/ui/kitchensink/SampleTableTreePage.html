@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<body>
+<wicket:extend>
+
+  <div wicket:id="feedback"></div>
+
+  <h3>
+    TableTree
+  </h3> 
+  
+  [<a wicket:id="abrirTodos">Abrir todos</a>]
+  [<a wicket:id="fecharTodos">Fechar todos</a>]
+  
+  <div wicket:id="tabletree" class="treetable"></div>
+
+<wicket:fragment wicket:id="AcoesFragment">
+  [<a wicket:id="moverEmpenhoSelecionado" class="button">Mover empenho(s) selecionado(s)</a>]
+</wicket:fragment>
+
+</wicket:extend>
+</body>
+</html>

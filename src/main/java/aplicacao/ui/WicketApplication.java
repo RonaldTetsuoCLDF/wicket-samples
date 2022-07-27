@@ -19,6 +19,7 @@ import org.springframework.web.context.support.WebApplicationContextUtils;
 import aplicacao.ui.cadastros.PessoasPage;
 import aplicacao.ui.home.HomePage;
 import aplicacao.ui.home.LoginPage;
+import aplicacao.ui.kitchensink.SampleTableTreePage;
 
 @Component
 public class WicketApplication extends AuthenticatedWebApplication {
@@ -40,6 +41,7 @@ public class WicketApplication extends AuthenticatedWebApplication {
 
         mountPackage("login", LoginPage.class);
         mountPackage("cadastros", PessoasPage.class);
+        mountPackage("kitchensink", SampleTableTreePage.class);
     }
 
     @Override

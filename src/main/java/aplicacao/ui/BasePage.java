@@ -56,6 +56,7 @@ public class BasePage extends WebPage {
             super(id);
         }
         public void onConfigure() {
+        	super.onConfigure();
             setVisible(AuthenticatedWebSession.get().isSignedIn());
         }
     }
