@@ -1,5 +1,7 @@
 package aplicacao.ui.home;
 
+import org.apache.wicket.Application;
+import org.apache.wicket.RestartResponseException;
 import org.apache.wicket.authroles.authentication.AuthenticatedWebSession;
 import org.apache.wicket.authroles.authorization.strategies.role.annotations.AuthorizeInstantiation;
 import org.apache.wicket.markup.html.form.Form;
@@ -26,7 +28,7 @@ public class LoginPage extends BasePage {
     @Override
     protected void onInitialize() {
         super.onInitialize();
-
+        
         add(new FeedbackPanel("feedback"));
 
         Form<?> form = new Form<LoginPage>("form", new CompoundPropertyModel<>(this)) {
@@ -50,5 +52,12 @@ public class LoginPage extends BasePage {
             .setRequired(true));
 
         add(form);
+    }
+    
+    @Override
+    protected void onBeforeRender() {
+        super.onBeforeRender();
+        if (AuthenticatedWebSession.get().isSignedIn())
+            throw new RestartResponseException(Application.get().getHomePage());
     }
 }
